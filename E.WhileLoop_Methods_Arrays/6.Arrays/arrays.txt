@@ -1,0 +1,19 @@
+arrays-
+An Array is just a list of values.
+
+Index: Starts with 0.
+
+Arrays are used for storing multiple values in a single variable.
+
+array syntax -
+
+Use { } to create a new array. { } brackets
+
+Arrays can be saved to a variable.
+
+Accessing Values: Use [ ] with index.
+
+Syntax Rules:
+• Brackets start and end the array.
+• Values separated by commas.
+• Can span multiple lines.

@@ -1,0 +1,44 @@
+if–else is a control statement.
+
+Why?
+
+if–else controls the flow of execution of a program by deciding which block of code will run based on a condition.
+
+Definition (exam-friendly)
+
+if–else is a decision-making (conditional) control statement that executes different blocks of code depending on whether a given condition is true or false.
+
+
+How it controls the program
+
+If the condition is true → if block executes
+
+If the condition is false → else block executes
+
+Types of control statements in Java
+
+Decision-making
+
+if
+
+if–else
+
+if–else–if
+
+switch
+
+Looping
+
+for
+
+while
+
+do-while
+
+Jump
+
+break
+
+continue
+
+return

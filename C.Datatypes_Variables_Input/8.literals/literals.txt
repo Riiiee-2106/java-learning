@@ -1,0 +1,129 @@
+### Literals in Java
+
+**Literals** are **fixed values** that are written directly in a program.
+They represent **constant data** stored in memory.
+
+Example:
+
+```
+int a = 10;
+```
+
+Here, `10` is a **literal**.
+
+---
+
+## Types of Literals in Java
+
+### 1. Integer Literals
+
+Used to represent whole numbers.
+
+Examples:
+
+```
+10
+-25
+0
+```
+
+Number systems allowed:
+
+* Decimal: `10`
+* Binary: `0b1010`
+* Octal: `012`
+* Hexadecimal: `0xA`
+
+---
+
+### 2. Floating-Point Literals
+
+Used to represent decimal numbers.
+
+Examples:
+
+```
+3.14
+2.5f
+6.02e23
+```
+
+* `f` or `F` → float literal
+* Default type → double
+
+---
+
+### 3. Character Literals
+
+Used to represent a single character.
+
+Examples:
+
+```
+'a'
+'9'
+'#'
+```
+
+Unicode character:
+
+```
+'\u0041'   // A
+```
+
+---
+
+### 4. String Literals
+
+Used to represent a sequence of characters.
+
+Examples:
+
+```
+"Hello"
+"Java Programming"
+```
+
+* Stored in **String Constant Pool**
+* Immutable in nature
+
+---
+
+### 5. Boolean Literals
+
+Used to represent logical values.
+
+Only two values:
+
+```
+true
+false
+```
+
+---
+
+### 6. Null Literal
+
+Represents **no object reference**.
+
+Example:
+
+```
+String s = null;
+```
+
+* Can be assigned only to reference variables
+* Not allowed for primitive types
+
+---
+
+## Important  Points
+
+* Literals are **not variables**
+* Their value **cannot be changed**
+* Stored directly in memory
+* Improve code readability
+
+---
+
+

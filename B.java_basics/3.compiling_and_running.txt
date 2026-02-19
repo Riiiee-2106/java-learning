@@ -1,0 +1,6 @@
+
+
+ -------------       -------------        -------------        ---        -------
+|program.java |---> |java compiler| ---> |program.class| ---> |jvm| ---> |program|
+ -------------       -------------        -------------        ---        -------
+.java source file  ---> javac --->     bytecode.class file ---> java   --->output

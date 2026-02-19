@@ -1,0 +1,134 @@
+Line of code
+Scanner input = new Scanner(System.in);
+
+
+This line is used to take input from the user (keyboard) in Java.
+
+1️⃣ Scanner (Class)
+
+Scanner is a class present in the package:
+
+java.util.Scanner
+
+
+It is used to read data like:
+
+integers (nextInt())
+
+floats (nextFloat())
+
+strings (nextLine())
+
+characters, etc.
+
+👉 Think of Scanner as a tool that can read data.
+
+2️⃣ input (Reference Variable)
+
+input is a reference variable
+
+It stores the address of the Scanner object created in memory
+
+Through input, we access Scanner methods
+
+Example:
+
+input.nextInt();
+input.nextLine();
+
+
+👉 Just like a remote controls a TV,
+input controls the Scanner object.
+
+3️⃣ new (Keyword)
+
+new is used to create an object in memory
+
+It:
+
+allocates memory in heap
+
+calls the constructor of the class
+
+Without new, no object is created.
+
+4️⃣ Scanner(System.in) (Constructor Call)
+🔹 Constructor
+
+Scanner() is a constructor
+
+It initializes the Scanner object
+
+🔹 System.in
+
+System.in is a predefined input stream
+
+It represents the keyboard (standard input)
+
+👉 So this means:
+
+“Create a Scanner object that takes input from the keyboard.”
+
+5️⃣ What happens in MEMORY? 🧠
+Step-by-step memory process:
+
+JVM sees new Scanner(System.in)
+
+Memory is allocated in HEAP
+
+Scanner object is created
+
+Address of that object is stored in input
+
+input (reference) is stored in STACK
+
+Memory view:
+STACK                     HEAP
+------------------        ---------------------
+input  -----------▶      Scanner object
+                          (linked to System.in)
+
+6️⃣ Why do we need System.in?
+
+Scanner needs a source of input
+
+Possible sources:
+
+System.in → keyboard
+
+File
+
+String
+
+Example:
+
+Scanner sc = new Scanner("Hello");
+
+
+But most common is:
+
+System.in (keyboard)
+
+7️⃣ How do we use it?
+Scanner input = new Scanner(System.in);
+
+int age = input.nextInt();
+String name = input.nextLine();
+
+
+nextInt() → reads integer
+
+nextLine() → reads full line
+
+
+
+
+📊 Summary Table (Very Important )
+Method            	Reads	        Stops at
+next()	           One word	          Space
+nextLine()      	Full line	       Enter
+nextInt()	         Integer	       Space / Enter
+nextFloat()	          Float	            Space / Enter
+nextDouble()	       Double	         Space / Enter
+nextLong()	            Long	           Space / Enter
+nextBoolean()	      true/false	            Space / Enter

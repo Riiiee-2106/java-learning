@@ -1,0 +1,4 @@
+what are variables?
+
+variables are like containers used for storing data values.
+

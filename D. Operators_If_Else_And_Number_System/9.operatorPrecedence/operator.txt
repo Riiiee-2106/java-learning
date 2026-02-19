@@ -1,0 +1,5 @@
+Operator Precedence:
+Operator precedence determines the order in which operators are evaluated in an expression based on their priority levels. Operators with higher precedence are evaluated before operators with lower precedence.
+
+Associativity:
+Associativity defines the order of evaluation for operators having the same precedence. It specifies whether the expression is evaluated from left to right or from right to left.

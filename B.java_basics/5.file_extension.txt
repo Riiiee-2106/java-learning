@@ -1,0 +1,32 @@
+.java File
+
+Contains Java source code
+
+Written in high-level, human-readable language
+
+Used during program development
+
+File is editable
+
+Input to the Java compiler (javac)
+
+
+
+
+.class File
+
+Contains Java bytecode
+
+Meant for execution by the JVM
+
+Used during program execution
+
+Not meant to be edited
+
+Output of the Java compiler
+
+
+
+One-line conclusion
+
+The .java file is the editable source code written by the programmer, while the .class file is the compiled bytecode executed by the JVM.

@@ -1,0 +1,138 @@
+Java main Method – Detailed Explanation
+
+In Java, the main method is the starting point of program execution. When we run a Java program, the Java Virtual Machine (JVM) looks specifically for the main method. If it is not found, the program will not run.
+
+The standard syntax of the main method is:
+
+public static void main(String[] args)
+
+
+Each word in this statement has a specific purpose.
+
+1. Entry Point of Java Program
+
+The main method is called the entry point because:
+
+Program execution starts from the main method
+
+JVM does not execute any other method before main
+
+Without the main method, JVM does not know where to begin execution
+
+That is why every standalone Java application must contain a main method.
+
+2. public – Access Specifier
+
+public means the method is accessible from anywhere.
+
+Why public is required:
+
+The JVM is outside the class
+
+To allow the JVM to access and call the method, it must be public
+
+If main is not public, the JVM cannot execute it
+
+So, public ensures visibility to the JVM.
+
+3. static – No Object Required
+
+static means the method belongs to the class, not to an object.
+
+Why static is required:
+
+JVM starts execution without creating an object
+
+If main were not static, JVM would first need to create an object
+
+This would create confusion because object creation itself may need code execution
+
+Hence, static allows the JVM to call main directly using the class name.
+
+4. void – Return Type
+
+void means the method does not return any value.
+
+Why void is used:
+
+The JVM does not expect any value back after program execution
+
+The purpose of main is to start execution, not to return data
+
+Therefore, the return type of main must be void.
+
+5. main – Method Name
+
+main is a predefined name in Java.
+
+Why the name main:
+
+JVM is programmed to look specifically for a method named main
+
+Changing the name means JVM will not recognize it
+
+So, the method name must be exactly main.
+
+6. String[] args – Command Line Arguments
+
+String[] args is an array of String type.
+
+Purpose:
+
+It is used to pass command-line arguments to the program
+
+These arguments are supplied while running the program from the command line
+
+Example:
+
+java Test Hello World
+
+
+Here:
+
+args[0] = "Hello"
+
+args[1] = "World"
+
+The name args can be changed, but the type must be String[].
+
+7. Fixed Method Signature
+
+The main method has a fixed signature:
+
+public static void main(String[] args)
+
+
+Important points:
+
+Order of keywords matters
+
+Changing return type, access modifier, or parameter type will cause an error
+
+JVM will not treat it as a valid starting point if the signature is altered
+
+What Happens When You Run a Java Program?
+
+JVM loads the .class file
+
+JVM searches for the main method
+
+JVM executes the statements inside main
+
+Program ends after main finishes execution
+
+Common Mistakes (For Exams)
+
+Missing public
+
+Removing static
+
+Changing parameter type from String[]
+
+Renaming main
+
+Any of these will prevent the program from running.
+
+One-Line Exam Conclusion
+
+The main method is the entry point of a Java program, and its fixed signature allows the JVM to start execution without creating an object.

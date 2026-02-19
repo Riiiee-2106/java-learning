@@ -1,0 +1,44 @@
+Rules for Identifiers in Java
+
+The allowed characters for identifiers are:
+
+Alphabets: A–Z, a–z
+
+Digits: 0–9
+
+Special characters: $ (dollar sign) and _ (underscore)
+
+An identifier cannot be a Java keyword or reserved word
+Examples of keywords: int, class, public, static, void
+
+Identifiers must not start with a digit (0–9)
+Correct: age1, _count
+Incorrect: 1age, 9total
+
+Java identifiers are case-sensitive
+Example: Age, age, and AGE are different identifiers
+
+There is no limit on the length of an identifier,
+but it is recommended to use meaningful names of 4–15 characters
+
+Identifiers must not contain spaces
+Incorrect: total marks
+Correct: totalMarks
+
+Identifiers must not contain special characters such as:
+@, #, %, &, !, *, +
+
+Identifiers should follow Java naming conventions:
+
+Variables & methods → camelCase
+
+Classes → PascalCase
+
+Constants → UPPER_CASE
+
+Identifiers should be meaningful and readable
+Prefer: studentAge
+Avoid: x1, a2
+
+Although $ is allowed, it is not recommended for user-defined identifiers
+It is mainly used internally by the JVM and compiler

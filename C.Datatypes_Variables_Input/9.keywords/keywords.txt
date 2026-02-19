@@ -1,0 +1,96 @@
+
+
+---
+
+### **1. Access Modifiers (Control access to classes/members)**
+
+* `public` – accessible from anywhere
+* `private` – accessible only within the class
+* `protected` – accessible in the same package and subclasses
+* `default` (no keyword) – accessible only within the same package
+
+---
+
+### **2. Class, Object, and Inheritance Keywords**
+
+* `class` – used to define a class
+* `interface` – used to define an interface
+* `extends` – to inherit a class
+* `implements` – to implement an interface
+* `abstract` – to declare abstract class/method
+* `final` – cannot be extended (class), overridden (method), or changed (variable)
+* `this` – reference to the current object
+* `super` – reference to the parent class object
+
+---
+
+### **3. Data Types Keywords**
+
+* `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`
+* `void` – no return type
+
+---
+
+### **4. Control Flow Keywords**
+
+* `if`, `else` – conditional statements
+* `switch`, `case`, `default` – multi-way selection
+* `for`, `while`, `do` – loops
+* `break` – exit loop or switch
+* `continue` – skip current iteration
+* `return` – return a value from method
+
+---
+
+### **5. Exception Handling Keywords**
+
+* `try`, `catch` – handle exceptions
+* `finally` – code that always executes after try/catch
+* `throw` – throw an exception
+* `throws` – declare exceptions that a method might throw
+
+---
+
+### **6. Object Creation and Memory Management**
+
+* `new` – create new objects
+* `instanceof` – test whether an object is an instance of a class
+
+---
+
+### **7. Package and Import Keywords**
+
+* `package` – defines a package
+* `import` – import other classes or packages
+
+---
+
+### **8. Multithreading Keywords**
+
+* `synchronized` – thread-safe code
+* `volatile` – variable modified by multiple threads
+* `transient` – variable not serialized
+
+---
+
+### **9. Other Important Keywords**
+
+* `static` – belongs to class, not instance
+* `enum` – defines enumerated types
+* `native` – method implemented in another language (like C/C++)
+* `strictfp` – restrict floating-point calculations to ensure portability
+
+---
+
+### **10. Reserved for Future Use**
+
+* `goto` – not used
+* `const` – not used
+
+---
+
+✅ **Total Java keywords:** 50
+
+---
+
+

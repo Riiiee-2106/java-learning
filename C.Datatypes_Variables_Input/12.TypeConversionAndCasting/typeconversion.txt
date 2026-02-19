@@ -1,0 +1,123 @@
+🔹 Type Conversion in Java
+
+Type conversion means changing one data type into another.
+
+Java supports two types:
+
+Widening (Implicit / Automatic)
+
+Narrowing (Explicit / Manual)
+
+1️⃣ WIDENING TYPE CONVERSION
+(Automatic / Implicit)
+📌 Diagram (Top part)
+byte → short → int → long → float → double
+
+✅ What it means
+
+Conversion from smaller data type → larger data type
+
+Happens automatically
+
+No data loss
+
+No casting required
+
+🧠 Why automatic?
+
+Because the destination type can store all values of the source type safely.
+
+🔍 Example
+int a = 10;
+double b = a;   // automatic conversion
+
+
+✔ int → double
+✔ No error
+✔ Output: 10.0
+
+🔍 Another Example
+byte b = 20;
+int i = b;
+
+📊 Size order (important)
+Type	Size
+byte	1 byte
+short	2 bytes
+int	4 bytes
+long	8 bytes
+float	4 bytes
+double	8 bytes
+🔑 Exam Line
+
+Widening conversion converts a smaller data type into a larger data type automatically without data loss.
+
+2️⃣ NARROWING TYPE CONVERSION
+(Explicit / Manual)
+📌 Diagram (Bottom part)
+double → float → long → int → short → byte
+
+✅ What it means
+
+Conversion from larger data type → smaller data type
+
+Manual casting required
+
+Data loss possible
+
+❌ Why not automatic?
+
+Because smaller data types cannot store all values of larger ones.
+
+🔍 Example
+double d = 10.75;
+int i = (int) d;
+
+
+✔ Explicit cast required
+❌ Decimal part lost
+✔ Output: 10
+
+🔍 Another Example
+int i = 130;
+byte b = (byte) i;
+
+
+✔ Output: -126 (data overflow)
+
+⚠️ Data Loss Types
+
+Precision loss
+
+double → int
+12.9 → 12
+
+
+Overflow
+
+int → byte
+
+🔑 Exam Line
+
+Narrowing conversion converts a larger data type into a smaller data type using explicit casting and may cause data loss.
+
+🧠 Why float comes after long?
+
+Even though:
+
+long = 8 bytes
+
+float = 4 bytes
+
+👉 float can store larger range of values using scientific notation.
+
+📌 Quick Comparison Table
+Feature	Widening	Narrowing
+Conversion	Small → Large	Large → Small
+Automatic	Yes	No
+Casting needed	❌ No	✅ Yes
+Data loss	❌ No	⚠️ Possible
+Example	int → double	double → int
+🎯 One-Line Diagram Explanation (Exam Ready)
+
+In Java, widening type conversion occurs automatically from byte to double, while narrowing conversion requires explicit casting from double to byte and may cause data loss.

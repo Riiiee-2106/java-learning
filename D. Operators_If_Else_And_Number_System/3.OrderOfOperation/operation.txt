@@ -1,0 +1,103 @@
+🔹 BODMAS / PEMDAS Rule
+
+When an expression has multiple operators, BODMAS tells us which operation to do first.
+
+🔤 Meaning of BODMAS
+Letter	Meaning
+B	Brackets ( )
+O	Order (powers, roots)
+D	Division ÷
+M	Multiplication ×
+A	Addition +
+S	Subtraction −
+🔤 Meaning of PEMDAS (same rule, different name)
+Letter	Meaning
+P	Parentheses ( )
+E	Exponents
+M	Multiplication
+D	Division
+A	Addition
+S	Subtraction
+
+📌 Important:
+
+Multiplication & Division → same priority (solve left to right)
+
+Addition & Subtraction → same priority (solve left to right)
+
+🧠 Correct Order (Very Important)
+
+Brackets / Parentheses
+
+Powers / Roots
+
+Division & Multiplication (left to right)
+
+Addition & Subtraction (left to right)
+
+🖼️ Example from Image 1
+Expression:
+9 ÷ 3 × 2 ÷ 6
+
+Step-by-step (Left to Right for ÷ and ×):
+
+9 ÷ 3 = 3
+
+3 × 2 = 6
+
+6 ÷ 6 = 1
+
+✅ Final Answer: 1
+
+❌ Wrong method: Doing all × first or all ÷ first
+
+🖼️ Example from Image 2
+Expression:
+8 − 5 + 7 − 1
+
+Step-by-step (Left to Right for + and −):
+
+8 − 5 = 3
+
+3 + 7 = 10
+
+10 − 1 = 9
+
+✅ Final Answer: 9
+
+❗ Very Common Mistake
+
+❌ Thinking:
+
+Multiplication first, then division
+
+
+✅ Correct:
+
+Multiplication and division → same priority → left to right
+
+
+Same rule for + and −
+
+💻 BODMAS in Programming (Java Example)
+int result = 9 / 3 * 2 / 6;
+System.out.println(result);
+
+
+Output:
+
+1
+
+🧪 Brackets Change Everything
+9 ÷ (3 × 2) ÷ 6
+
+
+Step:
+
+3 × 2 = 6
+
+9 ÷ 6 ÷ 6 = 0.25
+
+📌 One-Line Exam Definition
+
+BODMAS is a rule that defines the order of operations: Brackets, Orders, Division, Multiplication, Addition, and Subtraction.

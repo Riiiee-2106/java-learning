@@ -1,0 +1,121 @@
+Statement:
+int a = 5;
+
+Step 1: High-level Java code
+
+Yeh line human-readable Java code hai.
+Is stage par memory ya machine code ka koi concept nahi hota.
+
+Step 2: Compilation (javac)
+
+Java compiler is line ko bytecode mein convert karta hai.
+
+Conceptually bytecode kuch aisa hota hai:
+
+iconst_5      // stack par 5 daala
+istore_1     // stack se value utha kar variable 'a' mein store
+
+
+Yeh abhi bhi machine code nahi hai, balki JVM ke liye instructions hain.
+
+Step 3: JVM aur Memory Allocation
+
+Jab program run hota hai:
+
+1. JVM memory allocate karta hai
+
+Agar a local variable hai:
+
+Memory stack mein allocate hoti hai
+
+Agar a instance variable hota:
+
+Memory heap mein hoti
+
+Yahan maan lo a local variable hai.
+
+2. JVM kya karta hai internally
+
+JVM stack frame banata hai
+
+int ke liye 4 bytes memory reserve karta hai
+
+Value 5 us memory location mein store kar deta hai
+
+Conceptually:
+
+Memory address: 0x1001
+Value stored : 00000000 00000000 00000000 00000101
+
+
+(5 ka binary form)
+
+Step 4: Bytecode se Machine Code (JIT)
+
+JVM ka JIT compiler bytecode ko machine code mein convert karta hai.
+
+Machine-level idea (simplified):
+
+MOV R1, #5      ; register mein 5 load
+STORE R1, [SP-4] ; stack memory mein store
+
+
+Yeh machine code:
+
+Processor-specific hota hai
+
+Har CPU (Intel, ARM) ke liye alag hota hai
+
+
+
+
+Short Summary (Yaad rakhne ke liye)
+
+Java code likha: int a = 5
+
+Compiler ne bytecode banaya
+
+JVM ne stack mein 4 bytes allocate ki
+
+Value 5 binary form mein store hui
+
+JIT ne bytecode ko machine code mein badla
+
+
+
+
+Address to Memory Location (Simple English Explanation)
+
+A memory address is the exact location in RAM where data is stored.
+Every piece of data in memory has a unique address so the CPU can find it.
+
+What is a Memory Location?
+
+A specific cell in memory where data is stored
+
+It may store a number, variable value, or object data
+
+What is an Address?
+
+A unique number that identifies a memory location
+
+The CPU uses this address to read or write data
+
+Simple Memory Diagram
+Memory (RAM)
+-------------------------
+Address     Value
+-------------------------
+1000        5
+1004        10
+1008        25
+1012        50
+-------------------------
+
+
+Here:
+
+Value 5 is stored at address 1000
+
+Value 10 is stored at address 1004
+

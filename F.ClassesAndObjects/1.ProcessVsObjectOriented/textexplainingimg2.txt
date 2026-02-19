@@ -1,0 +1,74 @@
+This image is explaining the **difference between Procedural Programming and Object-Oriented Programming (OOP)** in a simple visual way.
+
+---
+
+## 🔹 Procedural Programming (Left side)
+
+**Idea:**
+Focuses on **functions/procedures** that act on data.
+
+**What the picture shows:**
+
+* Data (like files, money, records) is **separate**
+* Functions like **withdraw, deposit, transfer** keep moving between data
+* Data is passed around from one function to another
+
+**Key points:**
+
+* Data is **not protected**
+* Any function can change the data
+* Code becomes hard to manage as programs grow
+
+**Example (Java-style idea):**
+
+```java
+deposit(account, amount);
+withdraw(account, amount);
+```
+
+---
+
+## 🔹 Object-Oriented Programming (Right side)
+
+**Idea:**
+Focuses on **objects** that contain **both data and methods**.
+
+**What the picture shows:**
+
+* A **Customer object** holds money
+* Actions (deposit, withdraw) are done **inside the object**
+* Data and behavior are **bound together**
+
+**Key points:**
+
+* Data is **encapsulated** (more secure)
+* Easy to maintain and modify
+* Models real-world entities (customer, bank, account)
+
+**Example (Java-style idea):**
+
+```java
+customer.deposit(amount);
+customer.withdraw(amount);
+```
+
+---
+
+## 🆚 Quick Comparison Table
+
+| Procedural             | Object-Oriented         |
+| ---------------------- | ----------------------- |
+| Function-based         | Object-based            |
+| Data is separate       | Data + methods together |
+| Less secure            | More secure             |
+| Hard to scale          | Easy to scale           |
+| Not real-world focused | Real-world modeling     |
+
+---
+
+### ✅ In simple words:
+
+* **Procedural** → *“Do this, then do that”*
+* **OOP** → *“This object knows what to do”*
+
+If you want, I can explain this **with a real-life example**, **Java code**, or **exam-ready answer** 😊

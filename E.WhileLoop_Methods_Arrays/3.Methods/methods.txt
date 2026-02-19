@@ -1,0 +1,35 @@
+| Basis               | Function                                                     | Method                                                                |
+| ------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
+| **Definition**      | A function is a block of code that performs a specific task. | A method is a function that is **associated with a class or object**. |
+| **Belongs to**      | Independent (not tied to a class).                           | Belongs to a **class** and works on its objects.                      |
+| **Object required** | No object is required to call a function.                    | Usually requires an **object** to be called (except static methods).  |
+| **Used in**         | Procedural programming languages (like C).                   | Object-Oriented Programming (like Java, Python, C++).                 |
+| **Access data**     | Works only on the data passed to it.                         | Can access **object data (instance variables)** directly.             |
+| **Syntax example**  | `function add(a, b)`                                         | `obj.add(a, b)`                                                       |
+| **Reusability**     | Reusable but not object-specific.                            | Reusable and object-specific.                                         |
+
+
+
+
+Example
+Function (C / Python-style)-
+
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+
+
+
+
+Method (Java / OOP-style)-
+
+
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+}
+
+Calculator c = new Calculator();
+System.out.println(c.add(2, 3));

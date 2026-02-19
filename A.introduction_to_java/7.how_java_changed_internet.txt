@@ -1,0 +1,66 @@
+1. Portability (Write Once, Run Anywhere)--
+Before Java, software had to be written or compiled separately for different machines because each processor has a different instruction set. Developers had to check the machine type, operating system, and hardware before distributing software. This made software distribution difficult, slow, and error-prone. Often, users could not run downloaded software correctly due to platform mismatch.
+
+Java solved this problem by introducing the concept of Write Once, Run Anywhere. A Java program is compiled into bytecode, which is platform-independent. This bytecode runs on any machine that has a Java Virtual Machine installed, regardless of the processor or operating system. Because of this, developers can distribute the same software to all users without worrying about hardware compatibility.
+
+Example:
+A Java application downloaded from the internet can run on Windows, Linux, or macOS without any change, as long as a JVM is present.
+
+
+
+
+2. How Java Changed Software Distribution---
+
+Java completely changed the way software was developed and distributed by removing hardware dependency. Developers no longer needed to create multiple versions of the same software for different platforms. This reduced development cost, time, and errors.
+
+Java made it easy to distribute software over the internet because users could download one common version of the program and run it anywhere. This helped in the growth of web applications, enterprise software, and network-based programs. The combination of bytecode and JVM made Java portable, secure, and reliable, which was a major revolution in software development.
+
+
+3. Security (How Java Improved Security)
+
+In languages like C and C++, programs run directly on the operating system and have direct access to memory. Because of this, one program can accidentally or intentionally read, modify, or interfere with the memory (RAM) of another program. This can cause data leakage, system crashes, and security vulnerabilities.
+
+Java improves security by not allowing direct memory access. Java programs do not run directly on the hardware. Instead, they run inside the Java Virtual Machine (JVM), which acts as a protective layer between the program and the system.
+
+What Java does for security:
+
+Each Java program runs inside a secure sandbox.
+
+Programs cannot access the memory of other programs.
+
+Pointers are not exposed, preventing unauthorized memory access.
+
+Bytecode verification checks code before execution.
+
+JVM controls access to system resources like files, network, and RAM.
+
+Because of these features, Java prevents programs from spying on each other and protects the system from malicious code.
+
+One-line exam conclusion
+
+Java provides security by executing programs inside the JVM sandbox, preventing direct memory access and ensuring safe, isolated execution.
+
+--------------------------------------------------------
+
+Sandbox in Java
+
+The sandbox in Java is a security mechanism provided by the Java Virtual Machine (JVM). It creates a restricted environment in which Java programs run safely.
+
+In the sandbox:
+
+A Java program cannot directly access system memory (RAM).
+
+One program cannot read or interfere with another program.
+
+Access to system resources like files, network, and hardware is strictly controlled by the JVM.
+
+Unsafe operations are blocked unless explicitly permitted.
+
+This prevents malicious or faulty programs from harming the system.
+
+Example
+
+A Java program downloaded from the internet can run, but it cannot delete files or access sensitive data without permission.
+
+
+

@@ -1,0 +1,5 @@
+1. One of the most popular language. java currently runs on 60,00,00,00,000 devices.
+2. Wide Usage(Web-apps,backend,Mobile apps,enterprise software).
+3. High paying and a lot of jobs.
+4. Object Oriented.
+5. Rich Apis and community support.

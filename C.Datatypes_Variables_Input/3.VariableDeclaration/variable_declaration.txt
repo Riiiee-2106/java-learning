@@ -1,0 +1,97 @@
+Statement shown in the image
+int age = 20;
+
+
+This single line does three important things.
+
+1. int → Data Type (circled part)
+
+int tells the type of data
+
+It means: age will store an integer (whole number)
+
+In Java, int usually occupies 4 bytes (32 bits) of memory
+
+Why needed?
+
+JVM must know how much memory to reserve
+
+JVM must know what kind of operations are allowed
+
+Example:
+
+int → whole numbers (10, 20, -5)
+
+float → decimal numbers
+
+char → single character
+
+2. age → Variable Name
+
+age is a name given to a memory location
+
+It is human-readable
+
+Internally, JVM maps age to a memory address
+
+Think of it as:
+
+age = label
+
+Memory address = actual location in RAM
+
+3. = 20 → Value (Assignment)
+
+20 is the actual data
+
+= assigns the value 20 to the variable age
+
+This value is stored in RAM
+
+What happens in memory (RAM)?
+
+Since age is a local primitive variable, it is stored in the stack.
+
+Conceptual memory view
+STACK (RAM)
+------------------
+age   →   20
+------------------
+
+
+JVM reserves memory
+
+Stores value 20
+
+Links it with name age
+
+Why the green box “Reserved Memory”?
+
+JVM reserves a fixed-size memory block
+
+That memory block stores 20
+
+Size is decided by data type (int → 4 bytes)
+
+So:
+
+Memory is allocated
+
+Value is stored
+
+Variable name points to that memory
+
+Important points -
+
+
+int decides size and type of memory
+
+age is a variable name, not the memory itself
+
+20 is the value stored in RAM
+
+Primitive variables are stored in stack memory
+
+One-line exam answer
+
+The statement int age = 20; declares an integer variable, allocates memory in RAM, and stores the value 20 in that memory location.

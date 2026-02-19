@@ -1,0 +1,50 @@
+camelCase -
+start with lowercase letter.Capitalize the first letter of each subsequent word.
+ex-  myVariableName
+Used in-
+Java → variables, methods
+JavaScript → variables, functions
+Python → sometimes (less preferred)
+C# → local variables, parameters
+
+snake_case -
+start with an lowercase letter. separate words with underscore
+ex-  my_variable_name
+Used in -
+Python → variables, functions
+C → variables, functions
+C++ → variables, functions
+Ruby → variables, methods
+
+Kebab-case -
+all lowercase letters. separate words with hyphens.
+ex- my-variable-name
+Used in-
+HTML attributes
+CSS class names
+URLs
+Not allowed in most programming languages as variable names
+
+
+ PascalCase (UpperCamelCase)
+Format: every word starts with a capital letter
+Example: StudentDetails, CalculateMarks
+Used in:
+Java → class names, interfaces
+C# → classes, methods, properties
+Python → class names
+TypeScript → classes, interfaces
+
+
+ SCREAMING_SNAKE_CASE
+Format: uppercase letters with underscore
+Example: MAX_SIZE, PI_VALUE
+Used in:
+Java → constants (static final)
+C / C++ → macros, constants
+Python → constants
+
+
+keep a good and short names-
+choose names that are descriptive but not too long. it should make it easy to understand the variable's purpose.
+ex - age,firstName,isMarried

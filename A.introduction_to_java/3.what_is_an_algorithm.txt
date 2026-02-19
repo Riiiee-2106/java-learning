@@ -1,0 +1,10 @@
+1. step by step instructions.
+2. for eg - how to make tea?
+   (a) hot water into the cup.
+   (b) brew the tea for 5 minutes then drain.
+   (c) add sugar/honey/lemon according to your taste.
+   (d) tea is ready to be enjoyed....etc examples.
+
+3. An algorithm is a step-by-step procedure for solving or performing a task.
+
+   

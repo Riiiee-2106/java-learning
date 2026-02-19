@@ -1,0 +1,153 @@
+Explanation of each component in the diagram:
+
+---
+
+### JDK (Java Development Kit)
+
+The JDK is a complete package required to **develop, compile, and run Java programs**.
+It is mainly used by **developers**.
+
+
+The JDK is a software development kit required to develop Java applications.
+
+It includes:
+
+JRE (Java Runtime Environment)
+
+Java compiler (javac) to convert source code into bytecode
+
+Java interpreter/launcher (java) to run Java programs
+
+Javadoc tool to generate program documentation
+
+Other development tools needed for Java programming
+
+Essentially, the JDK is a superset of the JRE, meaning it contains everything needed to both develop and run Java applications.
+
+
+JDK contains:
+
+* JRE (to run programs)
+* Development tools (to create programs)
+
+Without JDK, you cannot write or compile Java programs.
+
+---
+
+### Java Development Tools (inside JDK)
+
+These tools are used during **program development**.
+
+Examples:
+
+* `javac` – compiler that converts `.java` file to `.class` file
+* `java` – runs the Java program
+* `javadoc` – generates documentation
+* `jar` – creates executable JAR files
+
+Purpose:
+Used to **write, compile, debug, and package** Java applications.
+
+---
+
+### JRE (Java Runtime Environment)
+
+JRE is required to **run Java programs**, but not to develop them.
+It is mainly used by **end users**.
+
+JRE contains:
+
+* JVM
+* Java libraries
+* Supporting files
+
+If you only want to run a Java application, JRE is sufficient.
+
+---
+
+### JVM (Java Virtual Machine)
+
+The JVM is the **core component** of Java.
+
+What it does:
+
+* Loads the `.class` file (bytecode)
+* Verifies bytecode for security
+* Converts bytecode into machine code
+* Executes the program
+
+Each operating system has its own JVM, but the bytecode remains the same.
+This is the main reason for Java’s platform independence.
+
+---
+
+### Set of Java Libraries
+
+These are **predefined classes and APIs** provided by Java.
+
+Examples:
+
+* `java.lang` (String, Math, Object)
+* `java.util` (ArrayList, Scanner)
+* `java.io` (File handling)
+* `java.net` (Networking)
+
+Purpose:
+They help programmers perform common tasks easily without writing code from scratch.
+
+---
+
+### Other Files
+
+These are supporting files required for proper execution of Java programs.
+
+They include:
+
+* Configuration files
+* Security files
+* Native libraries
+
+Purpose:
+They help JVM and JRE function smoothly and securely.
+
+---
+
+### One-line conclusion (Exam-ready)
+
+JDK is used to develop and run Java programs, JRE provides the runtime environment, and JVM executes bytecode to ensure platform-independent execution.
+
+
+
+Real-World Usage of JDK (Java Development Kit)
+
+Who uses it: Java developers
+
+Usage:
+The JDK is used to develop Java applications. Developers write code, compile it, test it, and create final programs using JDK tools.
+
+Example:
+A software developer building a banking system, college management software, or e-commerce website installs the JDK to write and compile Java programs.
+
+Real-World Usage of JRE (Java Runtime Environment)
+
+Who uses it: End users
+
+Usage:
+The JRE is used to run Java applications, not to develop them.
+
+Example:
+A user installs a Java-based exam software, billing application, or desktop tool. The user only needs JRE to run the program, not the JDK.
+
+Real-World Usage of JVM (Java Virtual Machine)
+
+Who uses it: System (internally used by Java)
+
+Usage:
+The JVM executes Java bytecode and ensures platform independence and security.
+
+Example:
+The same Java program runs on Windows, Linux, and macOS because each system has its own JVM that converts bytecode into machine-specific instructions.
+
+One-line exam summary
+
+JDK is used to develop Java programs, JRE is used to run Java programs, and JVM is responsible for executing bytecode and providing platform independence.

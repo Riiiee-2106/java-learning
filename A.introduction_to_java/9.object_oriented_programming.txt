@@ -1,0 +1,47 @@
+Object-Oriented Programming (OOP) — 
+
+Object-Oriented Programming is a programming method in which a program is designed using classes and objects that represent real-world entities.
+
+A class is a blueprint, and an object is an instance of that class.
+
+Example (Human)
+
+Class: Human
+
+Properties (Data):
+name, age, height, weight
+
+Methods (Behavior):
+walk(), talk(), eat(), sleep()
+
+Here, the Human class defines common characteristics and actions, while each object (person) has its own values.
+
+
+One-line  definition=
+Object-Oriented Programming models real-world entities using classes (blueprints) and objects (instances) with properties and behaviors.
+
+
+--------------------------------------------------------
+
+Example: Hotel
+
+Class: Hotel
+
+Properties (Data Members):
+hotelName
+location
+numberOfRooms
+roomPrice
+rating
+
+Methods (Behaviors):
+bookRoom()
+checkIn()
+checkOut()
+provideFood()
+generateBill()
+
+Explanation
+
+The Hotel class acts as a blueprint.
+Each hotel object (for example, Taj Hotel or Grand Hotel) will have its own values for these properties but will use the same behaviors.

@@ -1,0 +1,4 @@
+Assigns the right hand operand's value to the left-hand operand.
+
+example- int a = 5;
+

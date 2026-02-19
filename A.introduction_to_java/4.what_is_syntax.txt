@@ -1,0 +1,7 @@
+1. Structure of words in a sentence.
+2. Rules of the language.
+3. For Programming exact syntax must be followed.
+
+
+for eg - women - watching was i a movie. (syntax error)
+         men - You mean, I was watching a movie? (correct syntax)

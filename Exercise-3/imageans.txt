@@ -1,0 +1,76 @@
+1. false
+2. true
+3. false
+4. true
+5. false
+6. true
+7. false
+8. true
+9. true
+10. true
+
+🔹 Case Sensitive (in Java / Programming)
+
+Case sensitive means that uppercase and lowercase letters are treated as different.
+
+👉 A ≠ a
+👉 Name ≠ name ≠ NAME
+
+📌 Java is a Case-Sensitive Language
+
+Java distinguishes between capital and small letters in:
+
+variable names
+
+method names
+
+class names
+
+keywords usage
+
+✅ Examples
+1️⃣ Variable Names
+int age = 20;
+int Age = 25;
+
+
+✔ Both are different variables
+
+
+
+2️⃣ Method Names
+System.out.println("Hello");
+System.out.Println("Hello"); // ❌ Error
+
+
+✔ println is correct
+❌ Println is invalid
+
+3️⃣ Class Names
+class Student {}
+class student {}   // different class
+
+4️⃣ Keywords
+int a = 10;   // ✔ correct
+Int b = 20;   // ❌ error
+
+
+Java keywords are always lowercase.
+
+❌ Common Mistakes
+Scanner sc = new Scanner(System.in); // ✔
+scanner sc = new scanner(System.in); // ❌
+
+🧠 Why Java is Case Sensitive?
+
+Improves readability
+
+Avoids name conflicts
+
+Allows meaningful naming
+
+Helps follow coding conventions
+
+🔑 Exam-Ready Definition
+
+A case-sensitive language treats uppercase and lowercase letters as different characters; Java is a case-sensitive programming language.

@@ -1,0 +1,14 @@
+1. Humans use natural language(like Hindi/English) to talk to each other.
+2. Computers only understand (stream of) 0/1 or on/off.
+
+
+3. Giving instructions to a computer.
+4. Instructions - Tells computer what to do.
+5. These instructions are called code.
+6. Human instructions are given in High level languages.
+7. High level language - Programming language(C,C++,Java,Perl etc).
+
+8.compiler convert high level language to low level languages/machine code.
+
+
+

@@ -1,0 +1,123 @@
+1. byte
+
+Size: 1 byte (8 bits)
+
+Default value: 0
+
+Type: Integral
+
+Range: −128 to 127
+
+Use: Saves memory when working with small numbers (files, streams, network data)
+
+Example use: file handling, buffers
+
+2. short
+
+Size: 2 bytes (16 bits)
+
+Default value: 0
+
+Type: Integral
+
+Range: −32,768 to 32,767
+
+Use: Rarely used; when memory saving is more important than speed
+
+3. int
+
+Size: 4 bytes (32 bits)
+
+Default value: 0
+
+Type: Integral
+
+Range: −2³¹ to 2³¹ − 1
+
+Use: Most commonly used integer type in Java
+
+Why popular? Best balance of performance and memory
+
+4. long
+
+Size: 8 bytes (64 bits)
+
+Default value: 0L
+
+Type: Integral
+
+Range: −2⁶³ to 2⁶³ − 1
+
+Use: Very large numbers (population, distance, time in milliseconds)
+
+Note: Use L at the end of value
+
+5. char
+
+Size: 2 bytes (16 bits)
+
+Default value: '\u0000'
+
+Type: Character
+
+Range: 0 to 65,535 (Unicode)
+
+Use: Stores a single character
+
+Important:
+Java uses Unicode, not ASCII → supports all languages
+
+6. float
+
+Size: 4 bytes
+
+Default value: 0.0f
+
+Type: Decimal
+
+Precision: ~6–7 decimal digits
+
+Use: Decimal values where memory saving matters
+
+Note: Must use f at the end
+
+7. double
+
+Size: 8 bytes
+
+Default value: 0.0d
+
+Type: Decimal
+
+Precision: ~15–16 decimal digits
+
+Use: Default choice for decimal calculations
+
+Why preferred? More accurate than float
+
+8. boolean
+
+Size: 1 bit logically
+(Uses 1 byte internally in JVM)
+
+Default value: false
+
+Type: True / False
+
+Use: Conditions, decision making
+
+Only possible values: true or false
+
+Important notes (Exam points)
+
+Default values apply only to class/instance variables
+
+Local variables do not get default values
+
+Primitive types store actual values, not references
+
+Stored mainly in stack memory
+
+One-line summary (Very important)
+
+Java primitive data types define the size, type, and default value of data stored in memory, allowing efficient and type-safe programming.

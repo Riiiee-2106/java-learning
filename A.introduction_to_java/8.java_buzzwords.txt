@@ -1,0 +1,66 @@
+Java buzzwords are the key features that describe why Java is powerful, secure, and widely used.
+
+1. Simple
+
+Java is easy to learn and use. It removes complex features like pointers and multiple inheritance, making programs easier to write and maintain.
+
+2. Object-Oriented
+
+Java is based on classes and objects. It supports concepts like encapsulation, inheritance, polymorphism, and abstraction, which help in building modular and reusable programs.
+
+3. Platform Independent
+
+Java programs are not tied to a specific operating system or hardware. Java code is compiled into bytecode, which runs on any system that has a JVM. This follows the principle of Write Once, Run Anywhere.
+
+4. Secure
+
+Java provides strong security through the JVM sandbox. It prevents direct memory access, does not use pointers, and verifies bytecode before execution.
+
+5. Robust
+
+Java is reliable and error-resistant. It has strong memory management, automatic garbage collection, and exception handling, which reduce crashes.
+
+6. Multithreaded
+
+Java supports multithreading, allowing multiple tasks to run at the same time within a program, improving performance and responsiveness.
+
+7. High Performance
+
+Although Java uses bytecode, it is fast due to Just-In-Time (JIT) compilation, which converts bytecode into machine code at runtime.
+
+8. Distributed
+
+Java is designed for network-based applications. It supports APIs for networking and distributed systems, making it suitable for web and enterprise applications.
+
+9. Dynamic
+
+Java supports dynamic loading of classes at runtime. Programs can be extended without recompiling the entire application.
+
+10.Architectural Neutral ---
+
+Architectural neutrality means that Java programs are not dependent on any specific hardware architecture or processor.
+
+In many languages like C or C++, the compiled program is machine-specific because different processors (Intel, ARM, etc.) have different instruction sets. Such programs must be recompiled separately for each architecture.
+
+Java avoids this problem by compiling source code into bytecode, which is a hardware-independent format. This bytecode is executed by the Java Virtual Machine (JVM), and each platform has its own JVM that converts bytecode into native machine instructions.
+
+Because of this, the same Java program can run on different architectures such as x86, ARM, and others without any change.
+
+One-line exam definition:
+Architectural neutrality in Java means that Java programs are independent of processor and hardware architecture due to bytecode and JVM.
+
+One-line exam conclusion
+
+Java buzzwords describe the core features of Java that make it simple, secure, portable, robust, and suitable for modern software development.
+
+Interpreted ---
+
+Java is called an interpreted language because Java bytecode is executed by the Java Virtual Machine (JVM). The JVM reads the bytecode and interprets it into machine instructions at runtime. This allows Java programs to run on different platforms without recompilation, contributing to platform independence.
+
+Although Java is compiled first (into bytecode), the execution happens through the JVM, which is why Java is described as both compiled and interpreted.
+
+High Performance ---
+
+Java provides high performance due to the use of Just-In-Time (JIT) compilation. The JIT compiler converts frequently used bytecode into native machine code during runtime. This reduces interpretation overhead and makes Java programs execute faster.
+
+Java also uses efficient memory management and garbage collection, which further improves performance.
