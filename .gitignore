@@ -1,0 +1,39 @@
+# Compiled bytecode
+*.class
+
+# Logs
+*.log
+
+# Package files (not needed in learning repo)
+*.jar
+*.war
+*.ear
+
+# IDE settings
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Build directories
+target/
+build/
+.gradle/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
